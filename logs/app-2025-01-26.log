@@ -1,0 +1,210 @@
+2025-01-26 10:52:15 [info]: Edge added from A to D with weight 5
+2025-01-26 10:52:15 [info]: Edge added from A to E with weight 7
+2025-01-26 10:52:15 [info]: Edge added from A to B with weight 5
+2025-01-26 10:52:15 [info]: Edge added from D to E with weight 8
+2025-01-26 10:52:15 [info]: Edge added from D to C with weight 8
+2025-01-26 10:52:15 [info]: Edge added from B to C with weight 4
+2025-01-26 10:52:15 [info]: Edge added from C to E with weight 2
+2025-01-26 10:52:15 [info]: Edge added from C to D with weight 8
+2025-01-26 10:52:15 [info]: Edge added from E to B with weight 3
+2025-01-26 10:52:15 [info]: RailroadGraph initialized
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting distance for path: A -> B -> C
+2025-01-26 10:52:15 [info]: Calculating distance for path: A -> B -> C
+2025-01-26 10:52:15 [info]: Edge distance from A to B: 5
+2025-01-26 10:52:15 [info]: Edge distance from B to C: 4
+2025-01-26 10:52:15 [info]: Total distance: 9
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting distance for path: A -> D
+2025-01-26 10:52:15 [info]: Calculating distance for path: A -> D
+2025-01-26 10:52:15 [info]: Edge distance from A to D: 5
+2025-01-26 10:52:15 [info]: Total distance: 5
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting distance for path: A -> D -> C
+2025-01-26 10:52:15 [info]: Calculating distance for path: A -> D -> C
+2025-01-26 10:52:15 [info]: Edge distance from A to D: 5
+2025-01-26 10:52:15 [info]: Edge distance from D to C: 8
+2025-01-26 10:52:15 [info]: Total distance: 13
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting distance for path: A -> E -> B -> C -> D
+2025-01-26 10:52:15 [info]: Calculating distance for path: A -> E -> B -> C -> D
+2025-01-26 10:52:15 [info]: Edge distance from A to E: 7
+2025-01-26 10:52:15 [info]: Edge distance from E to B: 3
+2025-01-26 10:52:15 [info]: Edge distance from B to C: 4
+2025-01-26 10:52:15 [info]: Edge distance from C to D: 8
+2025-01-26 10:52:15 [info]: Total distance: 22
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting distance for path: A -> E -> D
+2025-01-26 10:52:15 [info]: Calculating distance for path: A -> E -> D
+2025-01-26 10:52:15 [info]: Edge distance from A to E: 7
+2025-01-26 10:52:15 [info]: Edge distance from E to D: null
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting distance for path: A -> E -> K
+2025-01-26 10:52:15 [info]: Calculating distance for path: A -> E -> K
+2025-01-26 10:52:15 [info]: Edge distance from A to E: 7
+2025-01-26 10:52:15 [info]: Edge distance from E to K: null
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting routes from C to C with maximum 3 stops
+2025-01-26 10:52:15 [info]: Calculating routes from C to C with maximum 3 stops
+2025-01-26 10:52:15 [info]: Found 2 routes
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting routes from A to C with exactly 4 stops
+2025-01-26 10:52:15 [info]: Calculating routes from A to C with exactly 4 stops
+2025-01-26 10:52:15 [info]: Found 1 routes
+2025-01-26 10:52:15 [info]: DistanceCalculator initialized
+2025-01-26 10:52:15 [info]: RouteCalculator initialized
+2025-01-26 10:52:15 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:15 [info]: RailroadService initialized
+2025-01-26 10:52:15 [info]: Getting shortest route from A to C
+2025-01-26 10:52:15 [info]: Calculating shortest route from A to C
+2025-01-26 10:52:15 [info]: Shortest route distance: 9
+2025-01-26 10:52:16 [info]: DistanceCalculator initialized
+2025-01-26 10:52:16 [info]: RouteCalculator initialized
+2025-01-26 10:52:16 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:16 [info]: RailroadService initialized
+2025-01-26 10:52:16 [info]: Getting shortest route from B to B
+2025-01-26 10:52:16 [info]: Calculating shortest route from B to B
+2025-01-26 10:52:16 [info]: Shortest route distance: 9
+2025-01-26 10:52:16 [info]: DistanceCalculator initialized
+2025-01-26 10:52:16 [info]: RouteCalculator initialized
+2025-01-26 10:52:16 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:16 [info]: RailroadService initialized
+2025-01-26 10:52:16 [info]: Getting shortest route from B to K
+2025-01-26 10:52:16 [info]: Calculating shortest route from B to K
+2025-01-26 10:52:16 [error]: NO SUCH ROUTE
+2025-01-26 10:52:16 [info]: DistanceCalculator initialized
+2025-01-26 10:52:16 [info]: RouteCalculator initialized
+2025-01-26 10:52:16 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:16 [info]: RailroadService initialized
+2025-01-26 10:52:16 [info]: Getting all routes from C to C with maximum distance 30
+2025-01-26 10:52:16 [info]: Calculating all routes from C to C with maximum distance 30
+2025-01-26 10:52:16 [info]: Found 3 routes
+2025-01-26 10:52:30 [info]: Edge added from A to D with weight 5
+2025-01-26 10:52:30 [info]: Edge added from A to E with weight 7
+2025-01-26 10:52:30 [info]: Edge added from A to B with weight 5
+2025-01-26 10:52:30 [info]: Edge added from D to E with weight 8
+2025-01-26 10:52:30 [info]: Edge added from D to C with weight 8
+2025-01-26 10:52:30 [info]: Edge added from B to C with weight 4
+2025-01-26 10:52:30 [info]: Edge added from C to E with weight 2
+2025-01-26 10:52:30 [info]: Edge added from C to D with weight 8
+2025-01-26 10:52:30 [info]: Edge added from E to B with weight 3
+2025-01-26 10:52:30 [info]: RailroadGraph initialized
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting distance for path: A -> B -> C
+2025-01-26 10:52:30 [info]: Calculating distance for path: A -> B -> C
+2025-01-26 10:52:30 [info]: Edge distance from A to B: 5
+2025-01-26 10:52:30 [info]: Edge distance from B to C: 4
+2025-01-26 10:52:30 [info]: Total distance: 9
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting distance for path: A -> D
+2025-01-26 10:52:30 [info]: Calculating distance for path: A -> D
+2025-01-26 10:52:30 [info]: Edge distance from A to D: 5
+2025-01-26 10:52:30 [info]: Total distance: 5
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting distance for path: A -> D -> C
+2025-01-26 10:52:30 [info]: Calculating distance for path: A -> D -> C
+2025-01-26 10:52:30 [info]: Edge distance from A to D: 5
+2025-01-26 10:52:30 [info]: Edge distance from D to C: 8
+2025-01-26 10:52:30 [info]: Total distance: 13
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting distance for path: A -> E -> B -> C -> D
+2025-01-26 10:52:30 [info]: Calculating distance for path: A -> E -> B -> C -> D
+2025-01-26 10:52:30 [info]: Edge distance from A to E: 7
+2025-01-26 10:52:30 [info]: Edge distance from E to B: 3
+2025-01-26 10:52:30 [info]: Edge distance from B to C: 4
+2025-01-26 10:52:30 [info]: Edge distance from C to D: 8
+2025-01-26 10:52:30 [info]: Total distance: 22
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting distance for path: A -> E -> D
+2025-01-26 10:52:30 [info]: Calculating distance for path: A -> E -> D
+2025-01-26 10:52:30 [info]: Edge distance from A to E: 7
+2025-01-26 10:52:30 [info]: Edge distance from E to D: null
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting distance for path: A -> E -> K
+2025-01-26 10:52:30 [info]: Calculating distance for path: A -> E -> K
+2025-01-26 10:52:30 [info]: Edge distance from A to E: 7
+2025-01-26 10:52:30 [info]: Edge distance from E to K: null
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting routes from C to C with maximum 3 stops
+2025-01-26 10:52:30 [info]: Calculating routes from C to C with maximum 3 stops
+2025-01-26 10:52:30 [info]: Found 2 routes
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting routes from A to C with exactly 4 stops
+2025-01-26 10:52:30 [info]: Calculating routes from A to C with exactly 4 stops
+2025-01-26 10:52:30 [info]: Found 1 routes
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting shortest route from A to C
+2025-01-26 10:52:30 [info]: Calculating shortest route from A to C
+2025-01-26 10:52:30 [info]: Shortest route distance: 9
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting shortest route from B to B
+2025-01-26 10:52:30 [info]: Calculating shortest route from B to B
+2025-01-26 10:52:30 [info]: Shortest route distance: 9
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting shortest route from B to K
+2025-01-26 10:52:30 [info]: Calculating shortest route from B to K
+2025-01-26 10:52:30 [error]: NO SUCH ROUTE
+2025-01-26 10:52:30 [info]: DistanceCalculator initialized
+2025-01-26 10:52:30 [info]: RouteCalculator initialized
+2025-01-26 10:52:30 [info]: ShortRouteCalculator initialized
+2025-01-26 10:52:30 [info]: RailroadService initialized
+2025-01-26 10:52:30 [info]: Getting all routes from C to C with maximum distance 30
+2025-01-26 10:52:30 [info]: Calculating all routes from C to C with maximum distance 30
+2025-01-26 10:52:30 [info]: Found 3 routes

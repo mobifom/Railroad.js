@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for services/railroadService.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\prettify.css" />
+    <link rel="stylesheet" href="..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\index.html">All files</a> / <a href="index.html">services</a> railroadService.js
+    </h1>
+    <div class='clearfix'>
+    </div>
+  </div>
+  <div class='status-line medium'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81</td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-yes">12x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const RailroadGraph = require("../models/RailroadGraph");
+const logger = require("../utils/logger");
+const DistanceCalculator = require("./distanceCalculator");
+const RouteCalculator = require("./routeCalculator");
+const ShortRouteCalculator = require("./shortRouteCalculator");
+&nbsp;
+class RailroadService {
+    constructor(graph) {
+        this.distanceCalculator = new DistanceCalculator(graph);
+        this.routeCalculator = new RouteCalculator(graph);
+        this.shortRouteCalculator = new ShortRouteCalculator(graph);
+        logger.info("RailroadService initialized");
+    }
+&nbsp;
+    getDistance(path) {
+        try {
+            logger.info(`Getting distance for path: ${path.join(" -&gt; ")}`);
+            return this.distanceCalculator.getDistance(path);
+        } catch (error) {
+<span class="cstat-no" title="statement not covered" >            logger.error(error.message);</span>
+<span class="cstat-no" title="statement not covered" >            return error.message;</span>
+        }
+    }
+&nbsp;
+    getRoutesWithMaxStops(start, end, maxStops) {
+        try {
+            logger.info(
+                `Getting routes from ${start} to ${end} with maximum ${maxStops} stops`
+            );
+            return this.routeCalculator.getRoutesWithMaxStops(start, end, maxStops);
+        } catch (error) {
+<span class="cstat-no" title="statement not covered" >            logger.error(error.message);</span>
+<span class="cstat-no" title="statement not covered" >            return error.message;</span>
+        }
+    }
+&nbsp;
+    getRoutesWithExactStops(start, end, exactStops) {
+        try {
+            logger.info(
+                `Getting routes from ${start} to ${end} with exactly ${exactStops} stops`
+            );
+            return this.routeCalculator.getRoutesWithExactStops(
+                start,
+                end,
+                exactStops
+            );
+        } catch (error) {
+<span class="cstat-no" title="statement not covered" >            logger.error(error.message);</span>
+<span class="cstat-no" title="statement not covered" >            return error.message;</span>
+        }
+    }
+&nbsp;
+    getShortestRoute(start, end) {
+        try {
+            logger.info(`Getting shortest route from ${start} to ${end}`);
+            return this.shortRouteCalculator.getShortestRoute(start, end);
+        } catch (error) {
+<span class="cstat-no" title="statement not covered" >            logger.error(error.message);</span>
+<span class="cstat-no" title="statement not covered" >            return error.message;</span>
+        }
+    }
+&nbsp;
+    getAllRoutesWithMaxDistance(start, end, maxDistance) {
+        try {
+            logger.info(
+                `Getting all routes from ${start} to ${end} with maximum distance ${maxDistance}`
+            );
+            return this.routeCalculator.getAllRoutesWithMaxDistance(
+                start,
+                end,
+                maxDistance
+            );
+        } catch (error) {
+<span class="cstat-no" title="statement not covered" >            logger.error(error.message);</span>
+<span class="cstat-no" title="statement not covered" >            return error.message;</span>
+        }
+    }
+}
+&nbsp;
+module.exports = RailroadService;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jan 26 2025 10:52:30 GMT+1300 (New Zealand Daylight Time)
+</div>
+</div>
+<script src="..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\sorter.js"></script>
+</body>
+</html>

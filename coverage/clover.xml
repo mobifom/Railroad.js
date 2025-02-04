@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1737841950774" clover="3.2.0">
+  <project timestamp="1737841950774" name="All files">
+    <metrics statements="169" coveredstatements="151" conditionals="80" coveredconditionals="72" methods="34" coveredmethods="34" elements="283" coveredelements="257" complexity="0" loc="169" ncloc="169" packages="3" files="6" classes="6">
+      <package name="models">
+        <metrics statements="15" coveredstatements="13" conditionals="10" coveredconditionals="7" methods="4" coveredmethods="4"/>
+        <file name="RailroadGraph.js" path="C:\Users\Admin\test_2025_01_mohamed_ghowainam\backend\models\RailroadGraph.js">
+          <metrics statements="15" coveredstatements="13" conditionals="10" coveredconditionals="7" methods="4" coveredmethods="4"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="6" count="1" type="cond" truecount="1" falsecount="1"/>
+          <line num="7" count="0" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="9" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="18" count="9" type="cond" truecount="3" falsecount="1"/>
+          <line num="19" count="0" type="stmt"/>
+          <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="22" count="5" type="stmt"/>
+          <line num="24" count="9" type="stmt"/>
+          <line num="25" count="9" type="stmt"/>
+          <line num="30" count="43" type="cond" truecount="1" falsecount="1"/>
+          <line num="34" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="services">
+        <metrics statements="149" coveredstatements="133" conditionals="70" coveredconditionals="65" methods="29" coveredmethods="29"/>
+        <file name="distanceCalculator.js" path="C:\Users\Admin\test_2025_01_mohamed_ghowainam\backend\services\distanceCalculator.js">
+          <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="5" count="16" type="stmt"/>
+          <line num="6" count="16" type="stmt"/>
+          <line num="10" count="9" type="stmt"/>
+          <line num="11" count="9" type="cond" truecount="4" falsecount="0"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="8" type="stmt"/>
+          <line num="15" count="8" type="stmt"/>
+          <line num="16" count="8" type="stmt"/>
+          <line num="17" count="15" type="stmt"/>
+          <line num="18" count="15" type="cond" truecount="2" falsecount="0"/>
+          <line num="19" count="12" type="stmt"/>
+          <line num="21" count="5" type="stmt"/>
+          <line num="22" count="5" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="30" count="15" type="stmt"/>
+          <line num="31" count="21" type="stmt"/>
+          <line num="32" count="15" type="cond" truecount="2" falsecount="0"/>
+          <line num="33" count="15" type="stmt"/>
+          <line num="34" count="15" type="stmt"/>
+          <line num="38" count="2" type="stmt"/>
+        </file>
+        <file name="railroadService.js" path="C:\Users\Admin\test_2025_01_mohamed_ghowainam\backend\services\railroadService.js">
+          <metrics statements="35" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="9" count="12" type="stmt"/>
+          <line num="10" count="12" type="stmt"/>
+          <line num="11" count="12" type="stmt"/>
+          <line num="12" count="12" type="stmt"/>
+          <line num="16" count="6" type="stmt"/>
+          <line num="17" count="6" type="stmt"/>
+          <line num="18" count="6" type="stmt"/>
+          <line num="20" count="0" type="stmt"/>
+          <line num="21" count="0" type="stmt"/>
+          <line num="26" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="32" count="0" type="stmt"/>
+          <line num="33" count="0" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="48" count="0" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="54" count="3" type="stmt"/>
+          <line num="55" count="3" type="stmt"/>
+          <line num="56" count="3" type="stmt"/>
+          <line num="58" count="0" type="stmt"/>
+          <line num="59" count="0" type="stmt"/>
+          <line num="64" count="1" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="80" count="1" type="stmt"/>
+        </file>
+        <file name="routeCalculator.js" path="C:\Users\Admin\test_2025_01_mohamed_ghowainam\backend\services\routeCalculator.js">
+          <metrics statements="59" coveredstatements="53" conditionals="40" coveredconditionals="36" methods="10" coveredmethods="10"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="5" count="17" type="stmt"/>
+          <line num="6" count="17" type="stmt"/>
+          <line num="10" count="3" type="stmt"/>
+          <line num="11" count="3" type="cond" truecount="6" falsecount="0"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="26" count="11" type="cond" truecount="2" falsecount="0"/>
+          <line num="27" count="10" type="cond" truecount="4" falsecount="0"/>
+          <line num="28" count="3" type="stmt"/>
+          <line num="29" count="3" type="stmt"/>
+          <line num="31" count="7" type="stmt"/>
+          <line num="32" count="9" type="stmt"/>
+          <line num="33" count="9" type="stmt"/>
+          <line num="34" count="9" type="stmt"/>
+          <line num="39" count="2" type="stmt"/>
+          <line num="40" count="2" type="cond" truecount="5" falsecount="1"/>
+          <line num="41" count="0" type="stmt"/>
+          <line num="43" count="2" type="stmt"/>
+          <line num="44" count="2" type="stmt"/>
+          <line num="45" count="2" type="stmt"/>
+          <line num="46" count="2" type="stmt"/>
+          <line num="47" count="2" type="stmt"/>
+          <line num="49" count="0" type="stmt"/>
+          <line num="50" count="0" type="stmt"/>
+          <line num="55" count="13" type="cond" truecount="1" falsecount="1"/>
+          <line num="56" count="13" type="cond" truecount="4" falsecount="0"/>
+          <line num="57" count="2" type="stmt"/>
+          <line num="58" count="2" type="stmt"/>
+          <line num="59" count="11" type="cond" truecount="4" falsecount="0"/>
+          <line num="60" count="8" type="stmt"/>
+          <line num="61" count="11" type="stmt"/>
+          <line num="62" count="11" type="stmt"/>
+          <line num="63" count="11" type="stmt"/>
+          <line num="68" count="2" type="stmt"/>
+          <line num="69" count="2" type="cond" truecount="5" falsecount="1"/>
+          <line num="70" count="0" type="stmt"/>
+          <line num="72" count="2" type="stmt"/>
+          <line num="73" count="2" type="stmt"/>
+          <line num="74" count="2" type="stmt"/>
+          <line num="75" count="2" type="stmt"/>
+          <line num="76" count="2" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="79" count="0" type="stmt"/>
+          <line num="84" count="11" type="cond" truecount="1" falsecount="1"/>
+          <line num="85" count="11" type="cond" truecount="4" falsecount="0"/>
+          <line num="86" count="4" type="stmt"/>
+          <line num="87" count="4" type="stmt"/>
+          <line num="89" count="7" type="stmt"/>
+          <line num="90" count="9" type="stmt"/>
+          <line num="91" count="9" type="stmt"/>
+          <line num="92" count="9" type="stmt"/>
+          <line num="97" count="2" type="stmt"/>
+        </file>
+        <file name="shortRouteCalculator.js" path="C:\Users\Admin\test_2025_01_mohamed_ghowainam\backend\services\shortRouteCalculator.js">
+          <metrics statements="33" coveredstatements="33" conditionals="22" coveredconditionals="21" methods="9" coveredmethods="9"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="5" count="16" type="stmt"/>
+          <line num="6" count="16" type="stmt"/>
+          <line num="10" count="6" type="stmt"/>
+          <line num="11" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="14" count="5" type="stmt"/>
+          <line num="16" count="5" type="stmt"/>
+          <line num="18" count="5" type="stmt"/>
+          <line num="20" count="16" type="stmt"/>
+          <line num="22" count="16" type="cond" truecount="1" falsecount="1"/>
+          <line num="23" count="16" type="stmt"/>
+          <line num="25" count="16" type="stmt"/>
+          <line num="27" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="28" count="3" type="stmt"/>
+          <line num="29" count="3" type="stmt"/>
+          <line num="32" count="13" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="43" count="3" type="stmt"/>
+          <line num="44" count="3" type="stmt"/>
+          <line num="49" count="5" type="stmt"/>
+          <line num="50" count="5" type="stmt"/>
+          <line num="51" count="5" type="stmt"/>
+          <line num="52" count="5" type="stmt"/>
+          <line num="56" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="60" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="64" count="15" type="stmt"/>
+          <line num="69" count="16" type="stmt"/>
+          <line num="82" count="13" type="stmt"/>
+          <line num="83" count="18" type="cond" truecount="4" falsecount="0"/>
+          <line num="84" count="14" type="stmt"/>
+          <line num="90" count="18" type="stmt"/>
+          <line num="94" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="utils">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="logger.js" path="C:\Users\Admin\test_2025_01_mohamed_ghowainam\backend\utils\logger.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="1" count="4" type="stmt"/>
+          <line num="2" count="4" type="stmt"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="8" count="105" type="stmt"/>
+          <line num="22" count="4" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

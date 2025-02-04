@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for services/routeCalculator.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="..\prettify.css" />
+    <link rel="stylesheet" href="..\base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(..\sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="..\index.html">All files</a> / <a href="index.html">services</a> routeCalculator.js
+    </h1>
+    <div class='clearfix'>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97</td><td class="line-coverage quiet"><span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">11x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span></td><td class="text"><pre class="prettyprint lang-js">const logger = require('../utils/logger');
+&nbsp;
+class RouteCalculator {
+    constructor(graph) {
+        this.graph = graph;
+        logger.info('RouteCalculator initialized');
+    }
+&nbsp;
+    getRoutesWithMaxStops(start, end, maxStops) {
+        try {
+            if (!start || !end || typeof maxStops !== 'number' || maxStops &lt; 0) {
+                throw new Error('Invalid input parameters');
+            }
+            logger.info(`Calculating routes from ${start} to ${end} with maximum ${maxStops} stops`);
+            const routes = [];
+            this.searchRoutesWithMaxStops(start, end, maxStops, 0, [], routes);
+            logger.info(`Found ${routes.length} routes`);
+            return routes;
+        } catch (error) {
+            logger.error(error.message);
+            return error.message;
+        }
+    }
+&nbsp;
+    searchRoutesWithMaxStops(currentNode, end, maxStops, stops, currentPath, routes) {
+        if (stops &gt; maxStops) return;
+        if (currentNode === end &amp;&amp; stops !== 0) {
+            routes.push([...currentPath]);
+            return;
+        }
+        this.graph.getNeighbors(currentNode).forEach(neighbor =&gt; {
+            currentPath.push(neighbor.node);
+            this.searchRoutesWithMaxStops(neighbor.node, end, maxStops, stops + 1, currentPath, routes);
+            currentPath.pop();
+        });
+    }
+&nbsp;
+    getRoutesWithExactStops(start, end, exactStops) {
+        try {
+            <span class="missing-if-branch" title="if path not taken" >I</span>if (!start || !end || typeof exactStops !== 'number' || exactStops &lt; 0) {
+<span class="cstat-no" title="statement not covered" >                throw new Error('Invalid input parameters');</span>
+            }
+            logger.info(`Calculating routes from ${start} to ${end} with exactly ${exactStops} stops`);
+            const routes = [];
+            this.searchRoutesWithExactStops(start, end, exactStops, 0, [], routes);
+            logger.info(`Found ${routes.length} routes`);
+            return routes;
+        } catch (error) {
+<span class="cstat-no" title="statement not covered" >            logger.error(error.message);</span>
+<span class="cstat-no" title="statement not covered" >            return error.message;</span>
+        }
+    }
+&nbsp;
+    searchRoutesWithExactStops(currentNode, end, exactStops, stops, currentPath, routes) {
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (stops &gt; exactStops) <span class="cstat-no" title="statement not covered" >return;</span>
+        if (currentNode === end &amp;&amp; stops === exactStops) {
+            routes.push([...currentPath]);
+            return;
+        } else if (stops &gt; exactStops || currentNode === end) return;
+        this.graph.getNeighbors(currentNode).forEach(neighbor =&gt; {
+            currentPath.push(neighbor.node);
+            this.searchRoutesWithExactStops(neighbor.node, end, exactStops, stops + 1, currentPath, routes);
+            currentPath.pop();
+        });
+    }
+&nbsp;
+    getAllRoutesWithMaxDistance(start, end, maxDistance) {
+        try {
+            <span class="missing-if-branch" title="if path not taken" >I</span>if (!start || !end || typeof maxDistance !== 'number' || maxDistance &lt;= 0) {
+<span class="cstat-no" title="statement not covered" >                throw new Error('Invalid input parameters');</span>
+            }
+            logger.info(`Calculating all routes from ${start} to ${end} with maximum distance ${maxDistance}`);
+            const routes = [];
+            this.searchRoutesWithMaxDistance(start, end, 0, maxDistance, [], routes);
+            logger.info(`Found ${routes.length} routes`);
+            return routes;
+        } catch (error) {
+<span class="cstat-no" title="statement not covered" >            logger.error(error.message);</span>
+<span class="cstat-no" title="statement not covered" >            return error.message;</span>
+        }
+    }
+&nbsp;
+    searchRoutesWithMaxDistance(currentNode, end, currentDistance, maxDistance, currentPath, routes) {
+        <span class="missing-if-branch" title="if path not taken" >I</span>if (currentDistance &gt;= maxDistance) <span class="cstat-no" title="statement not covered" >return;</span>
+        if (currentNode === end &amp;&amp; currentDistance !== 0) {
+            routes.push([...currentPath]);
+            return;
+        }
+        this.graph.getNeighbors(currentNode).forEach(neighbor =&gt; {
+            currentPath.push(neighbor.node);
+            this.searchRoutesWithMaxDistance(neighbor.node, end, currentDistance + neighbor.weight, maxDistance, currentPath, routes);
+            currentPath.pop();
+        });
+    }
+}
+&nbsp;
+module.exports = RouteCalculator;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Jan 26 2025 10:52:30 GMT+1300 (New Zealand Daylight Time)
+</div>
+</div>
+<script src="..\prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="..\sorter.js"></script>
+</body>
+</html>

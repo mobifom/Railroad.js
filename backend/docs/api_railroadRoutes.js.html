@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Source: api/railroadRoutes.js</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Source: api/railroadRoutes.js</h1>
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>const express = require('express');
+const { check } = require('express-validator');
+const validationMiddleware = require('../middleware/validationMiddleware');
+const authorize = require('../middleware/authorize');
+const router = express.Router();
+
+/**
+ * @typedef {Object} Request
+ * @property {Object} body - The body of the request.
+ * @property {Array} body.path - The array representing the path to calculate the distance.
+ * @property {Object} railroadService - The service used to calculate distances and routes.
+ */
+
+/**
+ * @typedef {Object} Response
+ * @property {function} json - Sends a JSON response.
+ */
+
+/**
+ * Get distance of a given path.
+ * @route POST /distance
+ * @group Distance - Operations about distance
+ * @param {Array.&lt;string>} path.body.required - Array representing the path to calculate the distance
+ * @returns {Object} 200 - An object containing the calculated distance
+ * @returns {Error}  default - Unexpected error
+ */
+router.post('/distance',
+     [
+        authorize(['Public', 'Admin']),
+        check('path').isArray().notEmpty(),
+        validationMiddleware
+    ],
+     /**
+     * @param {Request} req - The request object.
+     * @param {Response} res - The response object.
+     */
+    (req, res) => {
+        const path = req.body.path;
+        const distance = req.railroadService.getDistance(path);
+        res.json({ distance });
+    });
+
+
+/**
+ * Get routes with a maximum number of stops.
+ * @route POST /routes/max-stops
+ * @group Routes - Operations about routes
+ * @param {string} start.body.required - Starting point
+ * @param {string} end.body.required - Ending point
+ * @param {number} maxStops.body.required - Maximum number of stops
+ * @returns {Object} 200 - An object containing the routes
+ * @returns {Error}  default - Unexpected error
+ */
+router.post('/routes/max-stops',
+    [
+        authorize('Admin'),
+        check('start').isString().notEmpty(),
+        check('end').isString().notEmpty(),
+        check('maxStops').isInt({ min: 0 }),
+        validationMiddleware
+    ],
+     /**
+     * @param {Request} req - The request object.
+     * @param {Response} res - The response object.
+     */
+     (req, res) => {
+    const { start, end, maxStops } = req.body;
+    const routes = req.railroadService.getRoutesWithMaxStops(start, end, maxStops);
+    res.json({ routes });
+});
+
+/**
+ * Get routes with an exact number of stops.
+ * @route POST /routes/exact-stops
+ * @group Routes - Operations about routes
+ * @param {string} start.body.required - Starting point
+ * @param {string} end.body.required - Ending point
+ * @param {number} exactStops.body.required - Exact number of stops
+ * @returns {Object} 200 - An object containing the routes
+ * @returns {Error}  default - Unexpected error
+ */
+router.post('/routes/exact-stops',
+    [
+        authorize('Admin'),
+        check('start').isString().notEmpty(),
+        check('end').isString().notEmpty(),
+        check('exactStops').isInt({ min: 0 }),
+        validationMiddleware
+    ],
+    /**
+     * @param {Request} req - The request object.
+     * @param {Response} res - The response object.
+     */
+     (req, res) => {
+    const { start, end, exactStops } = req.body;
+    const routes = req.railroadService.getRoutesWithExactStops(start, end, exactStops);
+    res.json({ routes });
+});
+
+/**
+ * Get the shortest route between two locations.
+ * @route POST /routes/shortest-route
+ * @group Routes - Operations about routes
+ * @param {string} start.body.required - Starting point
+ * @param {string} end.body.required - Ending point
+ * @returns {Object} 200 - An object containing the shortest route
+ * @returns {Error}  default - Unexpected error
+ */
+router.post('/routes/shortest-route',
+    [
+        authorize('Admin'),
+        check('start').isString().notEmpty(),
+        check('end').isString().notEmpty(),
+        validationMiddleware
+    ],
+    /**
+     * @param {Request} req - The request object.
+     * @param {Response} res - The response object.
+     */
+     (req, res) => {
+    const { start, end } = req.body;
+    const shortestRoute = req.railroadService.getShortestRoute(start, end);
+    res.json({ shortestRoute });
+});
+
+/**
+ * Get all routes with a maximum distance.
+ * @route POST /routes/max-distance
+ * @group Routes - Operations about routes
+ * @param {string} start.body.required - Starting point
+ * @param {string} end.body.required - Ending point
+ * @param {number} maxDistance.body.required - Maximum distance
+ * @returns {Object} 200 - An object containing the routes
+ * @returns {Error}  default - Unexpected error
+ */
+router.post('/routes/max-distance',
+    [
+        authorize('Admin'),
+        check('start').isString().notEmpty(),
+        check('end').isString().notEmpty(),
+        check('maxDistance').isInt({ min: 1 }),
+        validationMiddleware
+    ],
+    /**
+     * @param {Request} req - The request object.
+     * @param {Response} res - The response object.
+     */
+     (req, res) => {
+    const { start, end, maxDistance } = req.body;
+    const routes = req.railroadService.getAllRoutesWithMaxDistance(start, end, maxDistance);
+    res.json({ routes });
+});
+
+module.exports = router;</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="DistanceCalculator.html">DistanceCalculator</a></li><li><a href="RailroadGraph.html">RailroadGraph</a></li><li><a href="RailroadService.html">RailroadService</a></li><li><a href="RouteCalculator.html">RouteCalculator</a></li><li><a href="ShortRouteCalculator.html">ShortRouteCalculator</a></li></ul><h3>Global</h3><ul><li><a href="global.html#authMiddleware">authMiddleware</a></li><li><a href="global.html#authorize">authorize</a></li><li><a href="global.html#generateToken">generateToken</a></li><li><a href="global.html#limiter">limiter</a></li><li><a href="global.html#logger">logger</a></li><li><a href="global.html#railroadMiddleware">railroadMiddleware</a></li><li><a href="global.html#validationMiddleware">validationMiddleware</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.4</a> on Sun Jan 26 2025 23:20:37 GMT+1300 (New Zealand Daylight Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
