@@ -1,0 +1,11 @@
+{
+    "source": {
+        "include": ["./api", "./auth", "./middleware", "./models",  "./services", "./utils"],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "opts": {
+        "destination": "./docs",
+        "recurse": true
+    }
+}
