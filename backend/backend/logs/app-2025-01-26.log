@@ -1,0 +1,430 @@
+2025-01-26 17:03:19 [info]: Getting distance for path: A -> E
+2025-01-26 17:03:19 [info]: Calculating distance for path: A -> E
+2025-01-26 17:03:19 [info]: Edge distance from A to E: 7
+2025-01-26 17:03:19 [info]: Total distance: 7
+2025-01-26 17:03:25 [info]: Getting distance for path: A -> E
+2025-01-26 17:03:25 [info]: Calculating distance for path: A -> E
+2025-01-26 17:03:25 [info]: Edge distance from A to E: 7
+2025-01-26 17:03:25 [info]: Total distance: 7
+2025-01-26 17:03:50 [info]: Getting distance for path: A -> K
+2025-01-26 17:03:50 [info]: Calculating distance for path: A -> K
+2025-01-26 17:03:50 [info]: Edge distance from A to K: null
+2025-01-26 17:03:54 [info]: Getting distance for path: A -> K
+2025-01-26 17:03:54 [info]: Calculating distance for path: A -> K
+2025-01-26 17:03:54 [info]: Edge distance from A to K: null
+2025-01-26 17:03:55 [info]: Getting distance for path: A -> K
+2025-01-26 17:03:55 [info]: Calculating distance for path: A -> K
+2025-01-26 17:03:55 [info]: Edge distance from A to K: null
+2025-01-26 17:05:32 [info]: Getting distance for path: A -> D
+2025-01-26 17:05:32 [info]: Calculating distance for path: A -> D
+2025-01-26 17:05:32 [info]: Edge distance from A to D: 5
+2025-01-26 17:05:32 [info]: Total distance: 5
+2025-01-26 17:06:20 [info]: Getting distance for path: A -> E
+2025-01-26 17:06:20 [info]: Calculating distance for path: A -> E
+2025-01-26 17:06:20 [info]: Edge distance from A to E: 7
+2025-01-26 17:06:20 [info]: Total distance: 7
+2025-01-26 17:06:53 [info]: Getting distance for path: A -> P
+2025-01-26 17:06:53 [info]: Calculating distance for path: A -> P
+2025-01-26 17:06:53 [info]: Edge distance from A to P: null
+2025-01-26 17:09:10 [info]: Getting distance for path: E -> E
+2025-01-26 17:09:10 [info]: Calculating distance for path: E -> E
+2025-01-26 17:09:10 [info]: Edge distance from E to E: null
+2025-01-26 17:09:16 [info]: Getting distance for path: A -> B
+2025-01-26 17:09:16 [info]: Calculating distance for path: A -> B
+2025-01-26 17:09:16 [info]: Edge distance from A to B: 5
+2025-01-26 17:09:16 [info]: Total distance: 5
+2025-01-26 17:09:42 [info]: Getting distance for path: A -> K
+2025-01-26 17:09:42 [info]: Calculating distance for path: A -> K
+2025-01-26 17:09:42 [info]: Edge distance from A to K: null
+2025-01-26 17:09:50 [info]: Getting distance for path: A -> B -> E
+2025-01-26 17:09:50 [info]: Calculating distance for path: A -> B -> E
+2025-01-26 17:09:50 [info]: Edge distance from A to B: 5
+2025-01-26 17:09:50 [info]: Edge distance from B to E: null
+2025-01-26 17:09:50 [info]: Getting distance for path: A -> B -> E
+2025-01-26 17:09:50 [info]: Calculating distance for path: A -> B -> E
+2025-01-26 17:09:50 [info]: Edge distance from A to B: 5
+2025-01-26 17:09:50 [info]: Edge distance from B to E: null
+2025-01-26 17:09:51 [info]: Getting distance for path: A -> B -> E
+2025-01-26 17:09:51 [info]: Calculating distance for path: A -> B -> E
+2025-01-26 17:09:51 [info]: Edge distance from A to B: 5
+2025-01-26 17:09:51 [info]: Edge distance from B to E: null
+2025-01-26 17:09:54 [info]: Getting distance for path: A -> B -> D
+2025-01-26 17:09:54 [info]: Calculating distance for path: A -> B -> D
+2025-01-26 17:09:54 [info]: Edge distance from A to B: 5
+2025-01-26 17:09:54 [info]: Edge distance from B to D: null
+2025-01-26 17:09:57 [info]: Getting distance for path: A -> B -> C
+2025-01-26 17:09:57 [info]: Calculating distance for path: A -> B -> C
+2025-01-26 17:09:57 [info]: Edge distance from A to B: 5
+2025-01-26 17:09:57 [info]: Edge distance from B to C: 4
+2025-01-26 17:09:57 [info]: Total distance: 9
+2025-01-26 17:09:58 [info]: Getting distance for path: A -> B -> C
+2025-01-26 17:09:58 [info]: Calculating distance for path: A -> B -> C
+2025-01-26 17:09:58 [info]: Edge distance from A to B: 5
+2025-01-26 17:09:58 [info]: Edge distance from B to C: 4
+2025-01-26 17:09:58 [info]: Total distance: 9
+2025-01-26 17:10:03 [info]: Getting distance for path: B -> B
+2025-01-26 17:10:03 [info]: Calculating distance for path: B -> B
+2025-01-26 17:10:03 [info]: Edge distance from B to B: null
+2025-01-26 17:10:05 [info]: Getting distance for path: B -> B
+2025-01-26 17:10:05 [info]: Calculating distance for path: B -> B
+2025-01-26 17:10:05 [info]: Edge distance from B to B: null
+2025-01-26 17:10:09 [info]: Getting distance for path: C -> C
+2025-01-26 17:10:09 [info]: Calculating distance for path: C -> C
+2025-01-26 17:10:09 [info]: Edge distance from C to C: null
+2025-01-26 17:10:32 [info]: Getting shortest route from B to B
+2025-01-26 17:10:32 [info]: Calculating shortest route from B to B
+2025-01-26 17:10:32 [info]: Shortest route distance: 9
+2025-01-26 17:15:07 [info]: Getting routes from A to D with maximum 10 stops
+2025-01-26 17:15:07 [info]: Calculating routes from A to D with maximum 10 stops
+2025-01-26 17:15:07 [info]: Found route A,D
+2025-01-26 17:15:07 [info]: Found route A,E,B,C,D
+2025-01-26 17:15:07 [info]: Found route A,B,C,D
+2025-01-26 17:15:07 [info]: Found 3 routes
+2025-01-26 17:16:05 [info]: Getting all routes from A to D with maximum distance 1000
+2025-01-26 17:16:05 [info]: Calculating all routes from A to D with maximum distance 1000
+2025-01-26 17:16:05 [info]: Found route A,D
+2025-01-26 17:16:05 [info]: Found route A,E,B,C,D
+2025-01-26 17:16:05 [info]: Found route A,B,C,D
+2025-01-26 17:16:05 [info]: Found 3 routes
+2025-01-26 17:18:16 [info]: Getting routes from A to C with maximum 10 stops
+2025-01-26 17:18:16 [info]: Calculating routes from A to C with maximum 10 stops
+2025-01-26 17:18:16 [info]: Found route A,D,E,B,C
+2025-01-26 17:18:16 [info]: Found route A,D,C
+2025-01-26 17:18:16 [info]: Found route A,E,B,C
+2025-01-26 17:18:16 [info]: Found route A,B,C
+2025-01-26 17:18:16 [info]: Found 4 routes
+2025-01-26 17:20:39 [info]: Getting routes from A to C with maximum 10 stops
+2025-01-26 17:20:39 [info]: Calculating routes from A to C with maximum 10 stops
+2025-01-26 17:20:39 [info]: Found route A,D,E,B,C
+2025-01-26 17:20:39 [info]: Found route A,D,C
+2025-01-26 17:20:39 [info]: Found route A,E,B,C
+2025-01-26 17:20:39 [info]: Found route A,B,C
+2025-01-26 17:20:39 [info]: Found 4 routes
+2025-01-26 17:21:22 [info]: Getting routes from A to A with maximum 100 stops
+2025-01-26 17:21:22 [info]: Calculating routes from A to A with maximum 100 stops
+2025-01-26 17:21:22 [info]: Found 0 routes
+2025-01-26 17:21:32 [info]: Getting routes from A to B with maximum 100 stops
+2025-01-26 17:21:32 [info]: Calculating routes from A to B with maximum 100 stops
+2025-01-26 17:21:32 [info]: Found route A,D,E,B
+2025-01-26 17:21:32 [info]: Found route A,D,C,E,B
+2025-01-26 17:21:32 [info]: Found route A,E,B
+2025-01-26 17:21:32 [info]: Found route A,B
+2025-01-26 17:21:32 [info]: Found 4 routes
+2025-01-26 17:23:38 [info]: Edge added from A to D with weight 5
+2025-01-26 17:23:38 [info]: Edge added from A to E with weight 7
+2025-01-26 17:23:38 [info]: Edge added from A to B with weight 5
+2025-01-26 17:23:38 [info]: Edge added from D to E with weight 8
+2025-01-26 17:23:38 [info]: Edge added from D to C with weight 8
+2025-01-26 17:23:38 [info]: Edge added from B to C with weight 4
+2025-01-26 17:23:38 [info]: Edge added from C to E with weight 2
+2025-01-26 17:23:38 [info]: Edge added from C to D with weight 8
+2025-01-26 17:23:38 [info]: Edge added from E to B with weight 3
+2025-01-26 17:23:38 [info]: RailroadGraph initialized
+2025-01-26 17:23:38 [info]: DistanceCalculator initialized
+2025-01-26 17:23:38 [info]: RouteCalculator initialized
+2025-01-26 17:23:38 [info]: ShortRouteCalculator initialized
+2025-01-26 17:23:38 [info]: RailroadService initialized
+2025-01-26 17:23:44 [info]: Getting routes from A to B with maximum 100 stops
+2025-01-26 17:23:44 [info]: Calculating routes from A to B with maximum 100 stops
+2025-01-26 17:23:44 [info]: Found route A,D,E,B
+2025-01-26 17:23:44 [info]: Found route A,D,C,E,B
+2025-01-26 17:23:44 [info]: Found route A,E,B
+2025-01-26 17:23:44 [info]: Found route A,B
+2025-01-26 17:23:44 [info]: Found 4 routes
+2025-01-26 17:23:53 [info]: Getting routes from A to B with exactly 100 stops
+2025-01-26 17:23:53 [info]: Calculating routes from A to B with exactly 100 stops
+2025-01-26 17:23:53 [info]: Found 0
+2025-01-26 17:23:58 [info]: Getting routes from A to B with maximum 100 stops
+2025-01-26 17:23:58 [info]: Calculating routes from A to B with maximum 100 stops
+2025-01-26 17:23:58 [info]: Found route A,D,E,B
+2025-01-26 17:23:58 [info]: Found route A,D,C,E,B
+2025-01-26 17:23:58 [info]: Found route A,E,B
+2025-01-26 17:23:58 [info]: Found route A,B
+2025-01-26 17:23:58 [info]: Found 4 routes
+2025-01-26 17:25:16 [info]: Getting routes from A to D with maximum 100 stops
+2025-01-26 17:25:16 [info]: Calculating routes from A to D with maximum 100 stops
+2025-01-26 17:25:16 [info]: Found route A,D
+2025-01-26 17:25:16 [info]: Found route A,E,B,C,D
+2025-01-26 17:25:16 [info]: Found route A,B,C,D
+2025-01-26 17:25:16 [info]: Found 3 routes
+2025-01-26 17:30:20 [info]: Getting all routes from B to B with maximum distance 5
+2025-01-26 17:30:20 [info]: Calculating all routes from B to B with maximum distance 5
+2025-01-26 17:30:20 [info]: Found 0 routes
+2025-01-26 17:30:22 [info]: Getting all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Calculating all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Found 0 routes
+2025-01-26 17:30:22 [info]: Getting all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Calculating all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Found 0 routes
+2025-01-26 17:30:22 [info]: Getting all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Calculating all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Found 0 routes
+2025-01-26 17:30:22 [info]: Getting all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Calculating all routes from B to B with maximum distance 5
+2025-01-26 17:30:22 [info]: Found 0 routes
+2025-01-26 17:30:34 [info]: Getting routes from A to B with maximum 30 stops
+2025-01-26 17:30:34 [info]: Calculating routes from A to B with maximum 30 stops
+2025-01-26 17:30:34 [info]: Found route A,D,E,B
+2025-01-26 17:30:34 [info]: Found route A,D,C,E,B
+2025-01-26 17:30:34 [info]: Found route A,E,B
+2025-01-26 17:30:34 [info]: Found route A,B
+2025-01-26 17:30:34 [info]: Found 4 routes
+2025-01-26 17:30:38 [info]: Getting routes from A to C with maximum 30 stops
+2025-01-26 17:30:38 [info]: Calculating routes from A to C with maximum 30 stops
+2025-01-26 17:30:38 [info]: Found route A,D,E,B,C
+2025-01-26 17:30:38 [info]: Found route A,D,C
+2025-01-26 17:30:38 [info]: Found route A,E,B,C
+2025-01-26 17:30:38 [info]: Found route A,B,C
+2025-01-26 17:30:38 [info]: Found 4 routes
+2025-01-26 17:30:43 [info]: Getting routes from A to C with exactly 3 stops
+2025-01-26 17:30:43 [info]: Calculating routes from A to C with exactly 3 stops
+2025-01-26 17:30:43 [info]: Found route A,E,B,C
+2025-01-26 17:30:43 [info]: Found 1
+2025-01-26 17:30:47 [info]: Getting all routes from A to C with maximum distance 5
+2025-01-26 17:30:47 [info]: Calculating all routes from A to C with maximum distance 5
+2025-01-26 17:30:47 [info]: Found 0 routes
+2025-01-26 17:30:52 [info]: Getting all routes from A to C with maximum distance 100
+2025-01-26 17:30:52 [info]: Calculating all routes from A to C with maximum distance 100
+2025-01-26 17:30:52 [info]: Found route A,D,E,B,C
+2025-01-26 17:30:52 [info]: Found route A,D,C
+2025-01-26 17:30:52 [info]: Found route A,E,B,C
+2025-01-26 17:30:52 [info]: Found route A,B,C
+2025-01-26 17:30:52 [info]: Found 4 routes
+2025-01-26 17:33:51 [info]: Getting shortest route from A to B
+2025-01-26 17:33:51 [info]: Calculating shortest route from A to B
+2025-01-26 17:33:51 [info]: Shortest route distance: 5
+2025-01-26 17:34:18 [info]: Getting all routes from A to B with maximum distance 5
+2025-01-26 17:34:18 [info]: Calculating all routes from A to B with maximum distance 5
+2025-01-26 17:34:18 [info]: Found 0 routes
+2025-01-26 17:34:19 [info]: Getting all routes from A to B with maximum distance 5
+2025-01-26 17:34:19 [info]: Calculating all routes from A to B with maximum distance 5
+2025-01-26 17:34:19 [info]: Found 0 routes
+2025-01-26 17:34:20 [info]: Getting all routes from A to B with maximum distance 5
+2025-01-26 17:34:20 [info]: Calculating all routes from A to B with maximum distance 5
+2025-01-26 17:34:20 [info]: Found 0 routes
+2025-01-26 17:34:43 [info]: Getting all routes from A to B with maximum distance 100
+2025-01-26 17:34:43 [info]: Calculating all routes from A to B with maximum distance 100
+2025-01-26 17:34:43 [info]: Found route A,D,E,B
+2025-01-26 17:34:43 [info]: Found route A,D,C,E,B
+2025-01-26 17:34:43 [info]: Found route A,E,B
+2025-01-26 17:34:43 [info]: Found route A,B
+2025-01-26 17:34:43 [info]: Found 4 routes
+2025-01-26 17:38:40 [info]: Getting routes from A to A with exactly 1 stops
+2025-01-26 17:38:40 [info]: Calculating routes from A to A with exactly 1 stops
+2025-01-26 17:38:40 [info]: Found 0
+2025-01-26 17:38:41 [info]: Getting routes from A to A with exactly 1 stops
+2025-01-26 17:38:41 [info]: Calculating routes from A to A with exactly 1 stops
+2025-01-26 17:38:41 [info]: Found 0
+2025-01-26 17:38:41 [info]: Getting routes from A to A with exactly 1 stops
+2025-01-26 17:38:41 [info]: Calculating routes from A to A with exactly 1 stops
+2025-01-26 17:38:41 [info]: Found 0
+2025-01-26 17:38:41 [info]: Getting routes from A to A with exactly 1 stops
+2025-01-26 17:38:41 [info]: Calculating routes from A to A with exactly 1 stops
+2025-01-26 17:38:41 [info]: Found 0
+2025-01-26 17:38:42 [info]: Getting routes from A to A with exactly 1 stops
+2025-01-26 17:38:42 [info]: Calculating routes from A to A with exactly 1 stops
+2025-01-26 17:38:42 [info]: Found 0
+2025-01-26 17:40:19 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:40:19 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:40:19 [info]: Found 0 routes
+2025-01-26 17:40:20 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Found 0 routes
+2025-01-26 17:40:20 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Found 0 routes
+2025-01-26 17:40:20 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Found 0 routes
+2025-01-26 17:40:20 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:40:20 [info]: Found 0 routes
+2025-01-26 17:40:21 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:40:21 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:40:21 [info]: Found 0 routes
+2025-01-26 17:44:01 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:44:01 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:44:01 [info]: Found 0 routes
+2025-01-26 17:44:02 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Found 0 routes
+2025-01-26 17:44:02 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Found 0 routes
+2025-01-26 17:44:02 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Found 0 routes
+2025-01-26 17:44:02 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:44:02 [info]: Found 0 routes
+2025-01-26 17:44:07 [info]: Getting routes from A to C with maximum 100 stops
+2025-01-26 17:44:07 [info]: Calculating routes from A to C with maximum 100 stops
+2025-01-26 17:44:07 [info]: Found route A,D,E,B,C
+2025-01-26 17:44:07 [info]: Found route A,D,C
+2025-01-26 17:44:07 [info]: Found route A,E,B,C
+2025-01-26 17:44:07 [info]: Found route A,B,C
+2025-01-26 17:44:07 [info]: Found 4 routes
+2025-01-26 17:44:10 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:44:10 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:44:10 [info]: Found 0 routes
+2025-01-26 17:46:17 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:46:17 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:46:17 [info]: Found 0 routes
+2025-01-26 17:46:18 [info]: Getting routes from A to C with maximum 1 stops
+2025-01-26 17:46:18 [info]: Calculating routes from A to C with maximum 1 stops
+2025-01-26 17:46:18 [info]: Found 0 routes
+2025-01-26 17:46:23 [info]: Getting routes from A to C with maximum 100 stops
+2025-01-26 17:46:23 [info]: Calculating routes from A to C with maximum 100 stops
+2025-01-26 17:46:23 [info]: Found route A,D,E,B,C
+2025-01-26 17:46:23 [info]: Found route A,D,C
+2025-01-26 17:46:23 [info]: Found route A,E,B,C
+2025-01-26 17:46:23 [info]: Found route A,B,C
+2025-01-26 17:46:23 [info]: Found 4 routes
+2025-01-26 17:46:32 [info]: Getting shortest route from A to B
+2025-01-26 17:46:32 [info]: Calculating shortest route from A to B
+2025-01-26 17:46:32 [info]: Shortest route distance: 5
+2025-01-26 17:52:41 [info]: Edge added from A to D with weight 5
+2025-01-26 17:52:41 [info]: Edge added from A to E with weight 7
+2025-01-26 17:52:41 [info]: Edge added from A to B with weight 5
+2025-01-26 17:52:41 [info]: Edge added from D to E with weight 8
+2025-01-26 17:52:41 [info]: Edge added from D to C with weight 8
+2025-01-26 17:52:41 [info]: Edge added from B to C with weight 4
+2025-01-26 17:52:41 [info]: Edge added from C to E with weight 2
+2025-01-26 17:52:41 [info]: Edge added from C to D with weight 8
+2025-01-26 17:52:41 [info]: Edge added from E to B with weight 3
+2025-01-26 17:52:41 [info]: RailroadGraph initialized
+2025-01-26 17:52:41 [info]: DistanceCalculator initialized
+2025-01-26 17:52:41 [info]: RouteCalculator initialized
+2025-01-26 17:52:41 [info]: ShortRouteCalculator initialized
+2025-01-26 17:52:41 [info]: RailroadService initialized
+2025-01-26 17:53:26 [info]: Getting routes from A to D with exactly 100 stops
+2025-01-26 17:53:26 [info]: Calculating routes from A to D with exactly 100 stops
+2025-01-26 17:53:26 [info]: Found 0
+2025-01-26 17:53:35 [info]: Getting all routes from A to D with maximum distance 100
+2025-01-26 17:53:35 [info]: Calculating all routes from A to D with maximum distance 100
+2025-01-26 17:53:35 [info]: Found route A,D
+2025-01-26 17:53:35 [info]: Found route A,E,B,C,D
+2025-01-26 17:53:35 [info]: Found route A,B,C,D
+2025-01-26 17:53:35 [info]: Found 3 routes
+2025-01-26 17:54:00 [info]: Getting routes from C to D with exactly 2 stops
+2025-01-26 17:54:00 [info]: Calculating routes from C to D with exactly 2 stops
+2025-01-26 17:54:00 [info]: Found 0
+2025-01-26 17:54:04 [info]: Getting routes from C to D with exactly 1 stops
+2025-01-26 17:54:04 [info]: Calculating routes from C to D with exactly 1 stops
+2025-01-26 17:54:04 [info]: Found route C,D
+2025-01-26 17:54:04 [info]: Found 1
+2025-01-26 19:55:33 [info]: Edge added from A to D with weight 5
+2025-01-26 19:55:33 [info]: Edge added from A to E with weight 7
+2025-01-26 19:55:33 [info]: Edge added from A to B with weight 5
+2025-01-26 19:55:33 [info]: Edge added from D to E with weight 8
+2025-01-26 19:55:33 [info]: Edge added from D to C with weight 8
+2025-01-26 19:55:33 [info]: Edge added from B to C with weight 4
+2025-01-26 19:55:33 [info]: Edge added from C to E with weight 2
+2025-01-26 19:55:33 [info]: Edge added from C to D with weight 8
+2025-01-26 19:55:33 [info]: Edge added from E to B with weight 3
+2025-01-26 19:55:33 [info]: RailroadGraph initialized
+2025-01-26 19:55:33 [info]: DistanceCalculator initialized
+2025-01-26 19:55:33 [info]: RouteCalculator initialized
+2025-01-26 19:55:33 [info]: ShortRouteCalculator initialized
+2025-01-26 19:55:33 [info]: RailroadService initialized
+2025-01-26 19:57:03 [info]: Getting shortest route from A to D
+2025-01-26 19:57:03 [info]: Calculating shortest route from A to D
+2025-01-26 19:57:03 [info]: Shortest route distance: 5
+2025-01-26 19:57:18 [info]: Getting distance for path: A -> C -> D
+2025-01-26 19:57:18 [info]: Calculating distance for path: A -> C -> D
+2025-01-26 19:57:18 [info]: Edge distance from A to C: null
+2025-01-26 20:21:08 [info]: Getting shortest route from A to C
+2025-01-26 20:21:08 [info]: Calculating shortest route from A to C
+2025-01-26 20:21:08 [info]: Shortest route distance: 9
+2025-01-26 20:21:17 [info]: Getting distance for path: A -> E -> D
+2025-01-26 20:21:17 [info]: Calculating distance for path: A -> E -> D
+2025-01-26 20:21:17 [info]: Edge distance from A to E: 7
+2025-01-26 20:21:17 [info]: Edge distance from E to D: null
+2025-01-26 21:20:01 [info]: Edge added from A to D with weight 5
+2025-01-26 21:20:01 [info]: Edge added from A to E with weight 7
+2025-01-26 21:20:01 [info]: Edge added from A to B with weight 5
+2025-01-26 21:20:01 [info]: Edge added from D to E with weight 8
+2025-01-26 21:20:01 [info]: Edge added from D to C with weight 8
+2025-01-26 21:20:01 [info]: Edge added from B to C with weight 4
+2025-01-26 21:20:01 [info]: Edge added from C to E with weight 2
+2025-01-26 21:20:01 [info]: Edge added from C to D with weight 8
+2025-01-26 21:20:01 [info]: Edge added from E to B with weight 3
+2025-01-26 21:20:01 [info]: RailroadGraph initialized
+2025-01-26 21:20:01 [info]: DistanceCalculator initialized
+2025-01-26 21:20:01 [info]: RouteCalculator initialized
+2025-01-26 21:20:01 [info]: ShortRouteCalculator initialized
+2025-01-26 21:20:01 [info]: RailroadService initialized
+2025-01-26 21:21:17 [info]: Getting routes from A to B with maximum 30 stops
+2025-01-26 21:21:17 [info]: Calculating routes from A to B with maximum 30 stops
+2025-01-26 21:21:17 [info]: Found route A,D,E,B
+2025-01-26 21:21:17 [info]: Found route A,D,C,E,B
+2025-01-26 21:21:17 [info]: Found route A,E,B
+2025-01-26 21:21:17 [info]: Found route A,B
+2025-01-26 21:21:17 [info]: Found 4 routes
+2025-01-26 21:53:27 [info]: Edge added from A to D with weight 5
+2025-01-26 21:53:27 [info]: Edge added from A to E with weight 7
+2025-01-26 21:53:27 [info]: Edge added from A to B with weight 5
+2025-01-26 21:53:27 [info]: Edge added from D to E with weight 8
+2025-01-26 21:53:27 [info]: Edge added from D to C with weight 8
+2025-01-26 21:53:27 [info]: Edge added from B to C with weight 4
+2025-01-26 21:53:27 [info]: Edge added from C to E with weight 2
+2025-01-26 21:53:27 [info]: Edge added from C to D with weight 8
+2025-01-26 21:53:27 [info]: Edge added from E to B with weight 3
+2025-01-26 21:53:27 [info]: RailroadGraph initialized
+2025-01-26 21:53:27 [info]: DistanceCalculator initialized
+2025-01-26 21:53:27 [info]: RouteCalculator initialized
+2025-01-26 21:53:27 [info]: ShortRouteCalculator initialized
+2025-01-26 21:53:27 [info]: RailroadService initialized
+2025-01-26 21:53:55 [info]: Getting routes from A to D with exactly 2 stops
+2025-01-26 21:53:55 [info]: Calculating routes from A to D with exactly 2 stops
+2025-01-26 21:53:55 [info]: Found 0
+2025-01-26 21:54:01 [info]: Getting routes from A to D with exactly 1 stops
+2025-01-26 21:54:01 [info]: Calculating routes from A to D with exactly 1 stops
+2025-01-26 21:54:01 [info]: Found route A,D
+2025-01-26 21:54:01 [info]: Found 1
+2025-01-26 21:57:10 [info]: Getting shortest route from A to C
+2025-01-26 21:57:10 [info]: Calculating shortest route from A to C
+2025-01-26 21:57:10 [info]: Shortest route distance: 9
+2025-01-26 21:58:55 [info]: Getting shortest route from A to C
+2025-01-26 21:58:55 [info]: Calculating shortest route from A to C
+2025-01-26 21:58:55 [info]: Shortest route distance: 9
+2025-01-26 23:12:59 [info]: Edge added from A to D with weight 5
+2025-01-26 23:12:59 [info]: Edge added from A to E with weight 7
+2025-01-26 23:12:59 [info]: Edge added from A to B with weight 5
+2025-01-26 23:12:59 [info]: Edge added from D to E with weight 8
+2025-01-26 23:12:59 [info]: Edge added from D to C with weight 8
+2025-01-26 23:12:59 [info]: Edge added from B to C with weight 4
+2025-01-26 23:12:59 [info]: Edge added from C to E with weight 2
+2025-01-26 23:12:59 [info]: Edge added from C to D with weight 8
+2025-01-26 23:12:59 [info]: Edge added from E to B with weight 3
+2025-01-26 23:12:59 [info]: RailroadGraph initialized
+2025-01-26 23:12:59 [info]: DistanceCalculator initialized
+2025-01-26 23:12:59 [info]: RouteCalculator initialized
+2025-01-26 23:12:59 [info]: ShortRouteCalculator initialized
+2025-01-26 23:12:59 [info]: RailroadService initialized
+2025-01-26 23:13:28 [info]: Getting routes from A to C with maximum 30 stops
+2025-01-26 23:13:28 [info]: Calculating routes from A to C with maximum 30 stops
+2025-01-26 23:13:28 [info]: Found route A,D,E,B,C
+2025-01-26 23:13:28 [info]: Found route A,D,C
+2025-01-26 23:13:28 [info]: Found route A,E,B,C
+2025-01-26 23:13:28 [info]: Found route A,B,C
+2025-01-26 23:13:28 [info]: Found 4 routes
+2025-01-26 23:13:35 [info]: Getting routes from A to C with exactly 2 stops
+2025-01-26 23:13:35 [info]: Calculating routes from A to C with exactly 2 stops
+2025-01-26 23:13:35 [info]: Found route A,D,C
+2025-01-26 23:13:35 [info]: Found route A,B,C
+2025-01-26 23:13:35 [info]: Found 2
+2025-01-26 23:13:39 [info]: Getting routes from A to C with exactly 3 stops
+2025-01-26 23:13:39 [info]: Calculating routes from A to C with exactly 3 stops
+2025-01-26 23:13:39 [info]: Found route A,E,B,C
+2025-01-26 23:13:39 [info]: Found 1
+2025-01-26 23:13:46 [info]: Getting all routes from A to C with maximum distance 10
+2025-01-26 23:13:46 [info]: Calculating all routes from A to C with maximum distance 10
+2025-01-26 23:13:46 [info]: Found route A,B,C
+2025-01-26 23:13:46 [info]: Found 1 routes
+2025-01-26 23:13:49 [info]: Getting all routes from A to C with maximum distance 20
+2025-01-26 23:13:49 [info]: Calculating all routes from A to C with maximum distance 20
+2025-01-26 23:13:49 [info]: Found route A,D,C
+2025-01-26 23:13:49 [info]: Found route A,E,B,C
+2025-01-26 23:13:49 [info]: Found route A,B,C
+2025-01-26 23:13:49 [info]: Found 3 routes

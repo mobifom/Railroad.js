@@ -1,0 +1,99 @@
+2025-01-25 18:12:08 [info]: Edge added from A to D with weight 5
+2025-01-25 18:12:08 [info]: Edge added from A to E with weight 7
+2025-01-25 18:12:08 [info]: Edge added from A to B with weight 5
+2025-01-25 18:12:08 [info]: Edge added from D to E with weight 8
+2025-01-25 18:12:08 [info]: Edge added from D to C with weight 8
+2025-01-25 18:12:08 [info]: Edge added from B to C with weight 4
+2025-01-25 18:12:08 [info]: Edge added from C to E with weight 2
+2025-01-25 18:12:08 [info]: Edge added from C to D with weight 8
+2025-01-25 18:12:08 [info]: Edge added from E to B with weight 3
+2025-01-25 18:12:08 [info]: RailroadGraph initialized
+2025-01-25 18:12:08 [info]: DistanceCalculator initialized
+2025-01-25 18:12:08 [info]: RouteCalculator initialized
+2025-01-25 18:12:08 [info]: ShortRouteCalculator initialized
+2025-01-25 18:12:08 [info]: RailroadService initialized
+2025-01-25 18:12:17 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3NzU0MzIsImV4cCI6MTczNzc3OTAzMn0.ZEGmuf51-Mnq9RwZ6qFaqCRYD6Nr0p_NM2rV-lBd12M55
+2025-01-25 18:13:17 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiUHVibGljIiwiaWF0IjoxNzM3Nzc1NDMyLCJleHAiOjE3Mzc3NzkwMzJ9.3HPqyfpQr5s8BH8weOnnmXViyhy93fZgsecacRkvQ54
+2025-01-25 18:19:09 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODIyOTAsImV4cCI6MTczNzk1NTA5MH0.1ZWobygLE0QTMr4_AgsKyB-9VK6sWMRGc4SO7VBwHY4
+2025-01-25 18:20:36 [info]: token: eeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODIyOTAsImV4cCI6MTczNzk1NTA5MH0.1ZWobygLE0QTMr4_AgsKyB-9VK6sWMRGc4SO7VBwHY4
+2025-01-25 18:22:13 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJyb2xlIjoiUHVibGljIiwiaWF0IjoxNzM3NzgyMjkwLCJleHAiOjE3Mzc5NTUwOTB9.xB-RjLsJo3hKRoqucpNL3khQjrH7LTWiZr8-VD_zoR8
+2025-01-25 18:24:43 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI2MDQsImV4cCI6MTczNzc5MzQwNH0.ml_cC2pJH-Ph6XiRIrMnEaWIYNI-x_PKRJ7URMxAngw
+2025-01-25 18:25:29 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3NzU0MzIsImV4cCI6MTczNzc3OTAzMn0.ZEGmuf51-Mnq9RwZ6qFaqCRYD6Nr0p_NM2rV-lBd12M
+2025-01-25 18:25:48 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI2MDQsImV4cCI6MTczNzc5MzQwNH0.ml_cC2pJH-Ph6XiRIrMnEaWIYNI-x_PKRJ7URMxAngw
+2025-01-25 18:27:50 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI4MzEsImV4cCI6MTczNzc4NjQzMX0.rEFIn42-GiXe4mEPA6hk4PlOYT4xjRFLw1htonmnOQ4
+2025-01-25 18:31:22 [info]: Edge added from A to D with weight 5
+2025-01-25 18:31:22 [info]: Edge added from A to E with weight 7
+2025-01-25 18:31:22 [info]: Edge added from A to B with weight 5
+2025-01-25 18:31:22 [info]: Edge added from D to E with weight 8
+2025-01-25 18:31:22 [info]: Edge added from D to C with weight 8
+2025-01-25 18:31:22 [info]: Edge added from B to C with weight 4
+2025-01-25 18:31:22 [info]: Edge added from C to E with weight 2
+2025-01-25 18:31:22 [info]: Edge added from C to D with weight 8
+2025-01-25 18:31:22 [info]: Edge added from E to B with weight 3
+2025-01-25 18:31:22 [info]: RailroadGraph initialized
+2025-01-25 18:31:22 [info]: DistanceCalculator initialized
+2025-01-25 18:31:22 [info]: RouteCalculator initialized
+2025-01-25 18:31:22 [info]: ShortRouteCalculator initialized
+2025-01-25 18:31:22 [info]: RailroadService initialized
+2025-01-25 18:31:29 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI4MzEsImV4cCI6MTczNzc4NjQzMX0.rEFIn42-GiXe4mEPA6hk4PlOYT4xjRFLw1htonmnOQ4
+2025-01-25 18:31:53 [info]: Edge added from A to D with weight 5
+2025-01-25 18:31:53 [info]: Edge added from A to E with weight 7
+2025-01-25 18:31:53 [info]: Edge added from A to B with weight 5
+2025-01-25 18:31:53 [info]: Edge added from D to E with weight 8
+2025-01-25 18:31:53 [info]: Edge added from D to C with weight 8
+2025-01-25 18:31:53 [info]: Edge added from B to C with weight 4
+2025-01-25 18:31:53 [info]: Edge added from C to E with weight 2
+2025-01-25 18:31:53 [info]: Edge added from C to D with weight 8
+2025-01-25 18:31:53 [info]: Edge added from E to B with weight 3
+2025-01-25 18:31:53 [info]: RailroadGraph initialized
+2025-01-25 18:31:53 [info]: DistanceCalculator initialized
+2025-01-25 18:31:53 [info]: RouteCalculator initialized
+2025-01-25 18:31:53 [info]: ShortRouteCalculator initialized
+2025-01-25 18:31:53 [info]: RailroadService initialized
+2025-01-25 18:32:00 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI4MzEsImV4cCI6MTczNzc4NjQzMX0.rEFIn42-GiXe4mEPA6hk4PlOYT4xjRFLw1htonmnOQ4
+2025-01-25 18:33:07 [info]: Edge added from A to D with weight 5
+2025-01-25 18:33:07 [info]: Edge added from A to E with weight 7
+2025-01-25 18:33:07 [info]: Edge added from A to B with weight 5
+2025-01-25 18:33:07 [info]: Edge added from D to E with weight 8
+2025-01-25 18:33:07 [info]: Edge added from D to C with weight 8
+2025-01-25 18:33:07 [info]: Edge added from B to C with weight 4
+2025-01-25 18:33:07 [info]: Edge added from C to E with weight 2
+2025-01-25 18:33:07 [info]: Edge added from C to D with weight 8
+2025-01-25 18:33:07 [info]: Edge added from E to B with weight 3
+2025-01-25 18:33:07 [info]: RailroadGraph initialized
+2025-01-25 18:33:07 [info]: DistanceCalculator initialized
+2025-01-25 18:33:07 [info]: RouteCalculator initialized
+2025-01-25 18:33:07 [info]: ShortRouteCalculator initialized
+2025-01-25 18:33:07 [info]: RailroadService initialized
+2025-01-25 18:33:20 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI4MzEsImV4cCI6MTczNzc4NjQzMX0.rEFIn42-GiXe4mEPA6hk4PlOYT4xjRFLw1htonmnOQ4
+2025-01-25 18:33:20 [info]: process.env.JWT_SECRET: undefined
+2025-01-25 18:39:10 [info]: Edge added from A to D with weight 5
+2025-01-25 18:39:10 [info]: Edge added from A to E with weight 7
+2025-01-25 18:39:10 [info]: Edge added from A to B with weight 5
+2025-01-25 18:39:10 [info]: Edge added from D to E with weight 8
+2025-01-25 18:39:10 [info]: Edge added from D to C with weight 8
+2025-01-25 18:39:10 [info]: Edge added from B to C with weight 4
+2025-01-25 18:39:10 [info]: Edge added from C to E with weight 2
+2025-01-25 18:39:10 [info]: Edge added from C to D with weight 8
+2025-01-25 18:39:10 [info]: Edge added from E to B with weight 3
+2025-01-25 18:39:10 [info]: RailroadGraph initialized
+2025-01-25 18:39:10 [info]: DistanceCalculator initialized
+2025-01-25 18:39:10 [info]: RouteCalculator initialized
+2025-01-25 18:39:10 [info]: ShortRouteCalculator initialized
+2025-01-25 18:39:10 [info]: RailroadService initialized
+2025-01-25 18:39:19 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI4MzEsImV4cCI6MTczNzc4NjQzMX0.rEFIn42-GiXe4mEPA6hk4PlOYT4xjRFLw1htonmnOQ4
+2025-01-25 18:39:19 [info]: process.env.JWT_SECRET: 944e91a7419cff238468b9daf0d878fe9149140e8681dc5e649235c3b6716dc2
+2025-01-25 18:39:19 [info]: Getting distance for path: A -> B -> C
+2025-01-25 18:39:19 [info]: Calculating distance for path: A -> B -> C
+2025-01-25 18:39:19 [info]: Edge distance from A to B: 5
+2025-01-25 18:39:19 [info]: Edge distance from B to C: 4
+2025-01-25 18:39:19 [info]: Total distance: 9
+2025-01-25 21:15:59 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3ODI4MzEsImV4cCI6MTczNzc4NjQzMX0.rEFIn42-GiXe4mEPA6hk4PlOYT4xjRFLw1htonmnOQ4
+2025-01-25 21:15:59 [info]: process.env.JWT_SECRET: 944e91a7419cff238468b9daf0d878fe9149140e8681dc5e649235c3b6716dc2
+2025-01-25 21:18:01 [info]: token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIiLCJyb2xlIjoiQWRtaW4iLCJpYXQiOjE3Mzc3OTMwMzAsImV4cCI6MTczNzkyMjYzMH0.1l37k9dWgcuBcXb0tFdFI-6ixzemduPUgdnZiLx5U4E
+2025-01-25 21:18:01 [info]: process.env.JWT_SECRET: 944e91a7419cff238468b9daf0d878fe9149140e8681dc5e649235c3b6716dc2
+2025-01-25 21:18:01 [info]: Getting distance for path: A -> B -> C
+2025-01-25 21:18:01 [info]: Calculating distance for path: A -> B -> C
+2025-01-25 21:18:01 [info]: Edge distance from A to B: 5
+2025-01-25 21:18:01 [info]: Edge distance from B to C: 4
+2025-01-25 21:18:01 [info]: Total distance: 9
